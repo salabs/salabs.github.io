@@ -2,7 +2,7 @@
 title: SALabs_
 email: ismo.aro@siili.com
 description: > # this means to ignore newlines until "baseurl:"
-  Our mission is to find new services and solutions around Software Automation, experiment them and distill them into saleable concepts, products and services.
+  The aim in software automation is to automate all repeatable and monotonous tasks in software development which enables people to focus on more compilicated matters. SALabs_ is the forerunner of software automation, where skilled and enthusiastic specialists are experimenting and developing new technologic solutions in order to increase value for customers.
 baseurl:
 url: https://salabs.github.io
 twitter_username: salabs_
@@ -14,10 +14,11 @@ paginate: 15
 paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-github-metadata
-  - titles-from-headings
+  - jekyll-titles-from-headings
   - jekyll-optional-front-matter
   - jekyll-default-layout
   - jekyll-target-blank
+  - jekyll-paginate
 repository: salabs/salabs.github.io
 collections:
   projects:

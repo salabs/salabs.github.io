@@ -9,9 +9,11 @@ dl, dd, ol, ul, figure {
 }
 
 
+@include font-face("VAGRoundedLTW04-Bold", /fonts/VAGRoundedLTW04-Bold, bold);
+@include font-face(Samplinal, fonts/Samplinal, 500, normal, eot woff2 woff tfbf);
 
 /** Variables **********************************************/
-$base-font-family:              Helvetica, sans-serif;
+$base-font-family:              VAGRoundedLTW04-Bold, sans-serif;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
@@ -25,7 +27,7 @@ $caption_color: #aaa;
 
 /* COLORS  */
 $red:  #FF3636;
-$orange: #F29105;
+$orange:  #FF5200;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
@@ -34,10 +36,10 @@ $purple: #B509AC;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     #55565a;
 
 /* Set theme color *************************/
-$theme-color:   $red;
+$theme-color:   $orange;
 
 
 /************************************************************/
@@ -126,11 +128,11 @@ a {
     text-decoration: none;
     /*
     &:visited {
-        color: darken($brand-color, 15%); 
+        color: darken($brand-color, 65%); 
     }
     */
     &:hover {
-        color: $theme-color;
+        color: darken($text-color, 15%); 
         text-decoration: none;
     }
 }

@@ -6,8 +6,23 @@ permalink: /about/
 
 <img class="col one right" src="/img/salabssquare.png">
 
-<br/>
-<br/>
+
+### Our Expertise
+
+ * Software Automation Engineering & Architecture
+ * Machine Learning
+ * Continuous Integration & Orchestration
+ * Cloud based technologies
+ * Containers & Virtualization
+ * Coaching and Training
+
+### How We Do It
+
+ * Solution and techology (tool) centric developer mind who is passioned about DevOps
+ * Craftmanship attitude with ability to share knowledge through coaching and training.
+
+The key to the success is our people - our senior and junior software automation specialists who feel passionate about their work and believe in continous learning, coaching and respect of others.
+
 <hr/>
 <br/>
 <span class="contacticon center">

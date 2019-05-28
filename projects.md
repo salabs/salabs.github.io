@@ -2,7 +2,7 @@
 layout: page
 permalink: /projects/
 title: projects
-description: Our Projects
+description: stuff that we have been working on
 ---
 
 <ul class="project-list">
@@ -14,17 +14,10 @@ description: Our Projects
     <div class="project-description">
         {{ project.description }}
     </div>
+    {% if project.documentation %} 
+    <div class="project-documentation">
+        <a class="project-documentation-link" href="{{ project.documentation}}">Documentation</a>
+    </div>
+    {% endif %}
   </div>
-{% endfor %}
-{% for repository in site.github.public_repositories %}
-  {% if repository.name contains 'github.io' %}
-    {% continue  %}
-  {% endif %}
-  <div class="project-container">
-    <div class="project-name">
-        <a class="project-title" href="{{ repository.html_url }}">{{ repository.name }}</a>
-    </div>
-    <div class="project-description">
-        {{ repository.description }}
-    </div>
 {% endfor %}

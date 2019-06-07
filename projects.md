@@ -16,7 +16,7 @@ description: stuff that we have been working on
     </div>
     {% if project.documentation %} 
     <div class="project-documentation">
-        <a class="project-documentation-link" href="{{ project.documentation}}">Documentation</a>
+        <a class="project-documentation-link" href="{{ project.documentation}}">[Documentation]</a>
     </div>
     {% endif %}
   </div>
